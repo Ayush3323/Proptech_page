@@ -11,10 +11,15 @@ const Contact = () => {
               We're here to assist you with any inquiries about our luxury
               properties and services.
             </p>
-            <form className="space-y-6">
+            <form
+              action="https://formspree.io/f/mzzdlovd" 
+              method="POST"
+              className="space-y-6"
+            >
               <div>
                 <input
                   type="text"
+                  name="name"
                   placeholder="Your Name"
                   className="w-full p-4 border border-gray-300 rounded-lg"
                 />
@@ -22,18 +27,25 @@ const Contact = () => {
               <div>
                 <input
                   type="email"
+                  name="email"
                   placeholder="Your Email"
                   className="w-full p-4 border border-gray-300 rounded-lg"
                 />
               </div>
               <div>
                 <textarea
+                  name="message"
                   placeholder="Your Message"
                   rows="4"
                   className="w-full p-4 border border-gray-300 rounded-lg"
                 ></textarea>
               </div>
-              <button className="!rounded-button bg-custom text-white px-8 py-4 hover:bg-custom/90 transition">
+              {/* Optional: Set a custom subject for the email */}
+              <input type="hidden" name="_subject" value="New Contact Form Submission" />
+              <button
+                type="submit"
+                className="!rounded-button bg-black text-white px-8 py-4 hover:bg-custom/90 transition"
+              >
                 Send Message
               </button>
             </form>
