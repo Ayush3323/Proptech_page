@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="font-poppins bg-gray-50">
       <Header />
-      <Hero />
+      {/* <Hero /> */}
       <Services />
       <Properties />
       <Testimonials />

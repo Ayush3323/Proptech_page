@@ -28,7 +28,7 @@ const Services = () => {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl mb-4">
+          <h2 className="font-playfair text-4xl mb-4 ">
             Crafting Exceptional Living Experiences
           </h2>
           <p className="text-gray-600">
