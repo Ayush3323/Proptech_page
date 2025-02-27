@@ -1,23 +1,20 @@
 import React from "react";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Properties from "./components/Properties";
-import Testimonials from "./components/Testimonials";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Homepage from "./components/Homepage/Homepage";
+import Subpage from "./components/Subpage/Subpage";
 
 function App() {
   return (
-    <div className="font-poppins bg-gray-50">
-      <Header />
-      {/* <Hero /> */}
-      <Services />
-      <Properties />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+
+      
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage/>}/>
+          <Route path="/Secondpage" element={<Subpage/>}/>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
