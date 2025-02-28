@@ -5,16 +5,12 @@ import Subpage from "./components/Subpage/Subpage";
 
 function App() {
   return (
-    <>
-
-      
-      <Router>
-        <Routes>
-          <Route path="/" element={<Homepage/>}/>
-          <Route path="/Secondpage" element={<Subpage/>}/>
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/Secondpage/:id" element={<Subpage />} />
+      </Routes>
+    </Router>
   );
 }
 
