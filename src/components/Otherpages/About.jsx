@@ -56,7 +56,7 @@ const About = () => {
             </div>
             <div className="h-96 rounded-lg overflow-hidden">
               <img
-                src="https://picsum.photos/500/300?random=1"
+                src="Amstoria_gallary2.jpg"
                 alt="LuxePropTech Team"
                 className="w-full h-full object-cover"
               />
