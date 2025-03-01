@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-20">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-12">
+        <div className="grid md:grid-cols-5 gap-12">
           <div>
-            <img src="" alt="Luxuar" className="h-8 mb-6" />
+            <img src="/J k homes1.png" alt="Luxuar" className="h-8 mb-6" />
             <p className="text-gray-400">
               Elevating the standards of luxury living across the globe
             </p>
@@ -61,22 +61,57 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
+          
+          {/* New section for cities */}
+        <div >
+          <h4 className="font-playfair text-lg mb-4">Our Cities</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="#" className="text-gray-400 hover:text-custom transition">
+                Noida
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-400 hover:text-custom transition">
+                Faridabad
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-400 hover:text-custom transition">
+                Gurugram
+              </a>
+            </li>
+          </ul>
+        </div>
+
           <div>
-            <h4 className="font-playfair text-lg mb-4">Newsletter</h4>
-            <form className="space-y-4">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg text-white"
-              />
-              <button className="!rounded-button w-full bg-custom text-white py-4 hover:bg-custom/90 transition">
-                Subscribe
-              </button>
-            </form>
+            <h4 className="font-playfair text-lg mb-4">Contact Us</h4>
+            <div className="space-y-4">
+              <p className="text-white">Email: <a href="mailto:jkhomesandrealty@gmail.com" className="text-custom">jkhomesandrealty@gmail.com</a></p>
+              <p className="text-white">Phone: <a href="tel:9318463745" className="text-custom">+91 9318463745</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        
+
+        {/* New section for contributions */}
+        <div className="mt-12 text-center">
+          <h4 className="font-playfair text-lg mb-4">Contributors</h4>
+          <p className="text-gray-400">
+            Developed by  
+          </p>
+          <div className="space-x-4">
+            <a href="https://www.linkedin.com/in/ayush-tiwari-a80b86248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-400 hover:text-custom transition">Ayush Tiwari</a>
+            <a href="https://www.linkedin.com/in/ravindra-jha75" className="text-gray-400 hover:text-custom transition">Ravindra Nath Jha</a>
           </div>
         </div>
+
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400">© 2024 Luxuar. All rights reserved.</p>
+          <a href="https://maydiv.com/"><p className="text-gray-400">© 2024 MAYDIV Infotech. All rights reserved.</p></a>
+          
         </div>
       </div>
     </footer>

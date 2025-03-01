@@ -28,7 +28,7 @@ const Services = () => {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl mb-4 ">
+          <h2 className="font-playfair text-4xl mb-4 " >
             Crafting Exceptional Living Experiences
           </h2>
           <p className="text-gray-600">
@@ -43,7 +43,7 @@ const Services = () => {
               className="p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition"
             >
               <i className={`${service.icon} text-custom text-2xl mb-4`}></i>
-              <h3 className="font-playfair text-xl mb-2">{service.title}</h3>
+              <h3 className="font-playfair text-xl mb-2" style={{color:"rebeccapurple",fontWeight:"500"}}>{service.title}</h3>
               <p className="text-gray-600">{service.description}</p>
             </div>
           ))}

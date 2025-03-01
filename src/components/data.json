@@ -1,511 +1,253 @@
-[{
+[
+  {
     "property": {
-      "id" :"1",
-      "title": "Modern Luxury Villa",
+      "id": "3",
+      "title": "BPTP Amstoria",
       "status": "For Sale",
-      "price": "$2,500,000",
+      "price": "₹5,000,000+",
+      "address": "Sector 102, Gurugram",
+      "city": "Gurugram",
+      "property_type": "Residential Plots",
       "details": {
-        "bedrooms": 4,
-        "baths": 3.5,
-        "area": "4,200 sq ft",
-        "yearBuilt": 2022
+        "plot_size": "Starting at 200 sq yards (167.22 sq mtrs)",
+        "township_size": "133 Acres",
+        "yearBuilt": "N/A"
       },
-      "description": "This stunning modern villa offers the perfect blend of luxury and comfort. Featuring an open-concept design with floor-to-ceiling windows that flood the space with natural light. The gourmet kitchen boasts premium appliances and a large island, perfect for entertaining. The primary suite includes a spa-like bathroom and walk-in closet. The outdoor space features a heated pool and landscaped gardens.",
+      "description": "BPTP Amstoria offers premium residential plots located on Dwarka Expressway in a strategically planned township. The plots are designed for a luxury living experience, with a focus on security, green spaces, and modern amenities.",
       "keyFeatures": [
-        "Smart Home Technology",
-        "Wine Cellar",
-        "Home Theater",
-        "3-Car Garage"
+        "Strategically located on Dwarka Expressway",
+        "Power backup for all plots",
+        "High-quality infrastructure",
+        "Three-tier security",
+        "World-class amenities"
       ],
       "images": {
-        "slider": [
-          "aa164369439820220201.jpg",
-          "aa164369439820220201.jpg"
-        ],
+        "slider": ["Amstoria_slider1.jpg", "Amstoria_slider2.jpg"],
         "gallery": [
-          "https://creatie.ai/ai/api/search-image?query=Modern kitchen interior with marble countertops, high-end appliances, and minimalist design. The space features excellent lighting and a large island, photographed to showcase its premium finishes&width=600&height=400&orientation=landscape&flag=019363ed-fa18-46d6-9429-2a5d93b5e3c5",
-          "https://creatie.ai/ai/api/search-image?query=Luxury master bedroom with en-suite bathroom, featuring a king-size bed, designer furniture, and large windows with scenic views. The room demonstrates high-end finishes and sophisticated design&width=600&height=400&orientation=landscape&flag=03a60507-e0e7-40b5-a767-51ee5b2b7bfd",
-          "https://creatie.ai/ai/api/search-image?query=Modern bathroom interior with freestanding bathtub, double vanity, and premium fixtures. The space features marble tiles and excellent natural lighting&width=600&height=400&orientation=landscape&flag=4a0e5660-ef64-4196-93ce-513cf51381d5",
-          "https://creatie.ai/ai/api/search-image?query=Outdoor pool area of a luxury villa with infinity pool, comfortable loungers, and landscaped gardens. The scene is captured during sunset to highlight the premium outdoor living space&width=600&height=400&orientation=landscape&flag=2be0502e-8e39-4646-ba3a-af1e15385123"
+          "/Amstoria_gallary3.jpg",
+          "/Amstoria_gallary2.jpg",
+          "/Amstoria_gallary1.jpg"
         ]
       },
-      "floorPlan": "https://creatie.ai/ai/api/search-image?query=Modern architectural floor plan with detailed room layouts, measurements, and annotations. The design shows a spacious open-concept living area, multiple bedrooms, and outdoor spaces&width=1000&height=600&orientation=landscape&flag=0a313062-175d-4273-9e35-9238d40cabbb",
       "location": {
-        "map": "https://ai-public.creatie.ai/gen_page/map_placeholder_1280x720.png",
+        "map": "https://www.bptp.com/lp/bptp-amstoria/images/map.jpg",
         "amenities": [
           { "icon": "shopping-bag", "text": "Shopping Center (0.5 mi)" },
-          { "icon": "graduation-cap", "text": "Schools (1.2 mi)" },
-          { "icon": "hospital", "text": "Medical Center (2.0 mi)" }
+          { "icon": "graduation-cap", "text": "Schools (DPS & Gurugram Global Heights)" },
+          { "icon": "hospital", "text": "Medical Center (Onsite)" }
         ],
         "transportation": [
-          { "icon": "subway", "text": "Metro Station (0.8 mi)" },
-          { "icon": "bus", "text": "Bus Stop (0.3 mi)" },
-          { "icon": "plane", "text": "Airport (15 mi)" }
-        ]
-      },
-      "agent": {
-        "name": "Sarah Johnson",
-        "title": "Luxury Property Specialist",
-        "image": "https://creatie.ai/ai/api/search-image?query=Professional headshot of a real estate agent, well-dressed in business attire with a warm, friendly smile. The photo is taken against a neutral background with studio lighting&width=100&height=100&orientation=squarish&flag=31ecff3d-7b0a-4756-b149-c81cab03642e",
-        "rating": 5
-      },
-      "amenities": [
-        { "icon": "swimming-pool", "text": "Heated Pool" },
-        { "icon": "dumbbell", "text": "Fitness Center" },
-        { "icon": "car", "text": "3-Car Garage" },
-        { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "wine-glass", "text": "Wine Cellar" },
-        { "icon": "film", "text": "Home Theater" },
-        { "icon": "home", "text": "Smart Home System" },
-        { "icon": "fan", "text": "Central Air" }
-      ]
-    }
-},
-
-{
-    "property": {
-      "id" :"2",
-      "title": "BPTP Discovery Park",
-      "status": "For Sale",
-      "price": "Starting from ₹85.6 Lakh",
-      "details": {
-        "bedrooms": "2-3 BHK",
-        "area": "1120 sq ft onwards",
-        "yearBuilt": "New Launch"
-      },
-      "description": "BPTP Discovery Park offers high-rise housing with a perfect balance of contemporary lifestyle, open spaces, and active public areas. Located in Sector 80, Faridabad, it provides seamless connectivity to Gurugram and Delhi via expressways and metro.",
-      "keyFeatures": [
-        "The Discovery Lounge",
-        "Indoor Swimming Pool",
-        "Gym",
-        "Rock-Climbing Wall",
-        "Badminton Courts",
-        "Open Green Spaces"
-      ],
-      "images": {
-        "slider": [
-          "https://www.bptp.com/lp/discovery-park/images/slider1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/slider2.jpg"
-        ],
-        "gallery": [
-          "https://www.bptp.com/lp/discovery-park/images/gallery1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery2.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery3.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery4.jpg"
-        ]
-      },
-      "floorPlan": "https://www.bptp.com/lp/discovery-park/images/floorplan.jpg",
-      "location": {
-        "map": "https://www.bptp.com/lp/discovery-park/images/map.jpg",
-        "amenities": [
-          { "icon": "shopping-bag", "text": "Shopping Malls (5 min drive)" },
-          { "icon": "graduation-cap", "text": "Schools (5 min drive)" },
-          { "icon": "hospital", "text": "Hospitals (2 min drive)" }
-        ],
-        "transportation": [
-          { "icon": "subway", "text": "Metro Station (5 min walk)" },
-          { "icon": "bus", "text": "Bus Station (2 min drive)" },
-          { "icon": "train", "text": "Train Station (5 min drive)" }
+          { "icon": "subway", "text": "Metro Station (3 km)" },
+          { "icon": "bus", "text": "Bus Stop (1 km)" },
+          { "icon": "plane", "text": "IGI Airport (15 km)" }
         ]
       },
       "agent": {
         "name": "BPTP Sales Team",
-        "title": "Official Sales Representative",
-        "image": "https://www.bptp.com/lp/discovery-park/images/agent.jpg",
+        "title": "Real Estate Expert",
+        "image": "https://www.bptp.com/lp/bptp-amstoria/images/agent.jpg",
         "rating": 5
       },
       "amenities": [
-        { "icon": "swimming-pool", "text": "Indoor Swimming Pool" },
-        { "icon": "dumbbell", "text": "Gym" },
-        { "icon": "tree", "text": "Open Green Spaces" },
+        { "icon": "swimming-pool", "text": "Swimming Pool" },
+        { "icon": "gym", "text": "Gymnasium" },
+        { "icon": "car", "text": "Parking Space" },
         { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "child", "text": "Children's Play Area" },
-        { "icon": "home", "text": "Club House" },
-        { "icon": "basketball-ball", "text": "Badminton Courts" },
-        { "icon": "mountain", "text": "Rock-Climbing Wall" }
+        { "icon": "wine-glass", "text": "Lounge Bar" },
+        { "icon": "home", "text": "Smart Home Integration" },
+        { "icon": "fan", "text": "Central Air" }
       ]
     }
   },
   {
     "property": {
-      "id" :"1",
-      "title": "Modern Luxury Villa",
+      "id": "4",
+      "title": "Pedestal @ 70A",
       "status": "For Sale",
-      "price": "$2,500,000",
+      "price": "Contact for Price",
+      "address": "Sector 70-A, Gurugram",
+      "city": "Gurugram",
+      "property_type": "Residential",
       "details": {
-        "bedrooms": 4,
-        "baths": 3.5,
-        "area": "4,200 sq ft",
-        "yearBuilt": 2022
+        "bedrooms": "2, 3 & 4 BHK",
+        "area": "Varies by unit",
+        "yearBuilt": "N/A"
       },
-      "description": "This stunning modern villa offers the perfect blend of luxury and comfort. Featuring an open-concept design with floor-to-ceiling windows that flood the space with natural light. The gourmet kitchen boasts premium appliances and a large island, perfect for entertaining. The primary suite includes a spa-like bathroom and walk-in closet. The outdoor space features a heated pool and landscaped gardens.",
+      "description": "Pedestal @ 70A is a luxurious residential development located in the heart of Gurugram, offering independent floors with exclusive designs. The township spans 102.2 acres, providing high-end living with ample green spaces, landscaped areas, and modern amenities. Each unit is well-ventilated and designed for family comfort with ample natural light.",
       "keyFeatures": [
-        "Smart Home Technology",
-        "Wine Cellar",
-        "Home Theater",
-        "3-Car Garage"
+        "Part of a luxurious township",
+        "Excellent connectivity to NH-8, Sohna Road, and Golf Course Extension Road",
+        "Independent floors with 2, 3, and 4 BHK options",
+        "Ultra-luxurious Sanctuary club",
+        "100% power back-up",
+        "Covered car parking",
+        "24x7 civic facilities and perimeter security"
       ],
       "images": {
         "slider": [
-          "aa164369439820220201.jpg",
-          "aa164369439820220201.jpg"
+          "/Pedestal70_slider1.jpg",
+          "/Pedestal70_slider2.jpg"
         ],
         "gallery": [
-          "https://creatie.ai/ai/api/search-image?query=Modern kitchen interior with marble countertops, high-end appliances, and minimalist design. The space features excellent lighting and a large island, photographed to showcase its premium finishes&width=600&height=400&orientation=landscape&flag=019363ed-fa18-46d6-9429-2a5d93b5e3c5",
-          "https://creatie.ai/ai/api/search-image?query=Luxury master bedroom with en-suite bathroom, featuring a king-size bed, designer furniture, and large windows with scenic views. The room demonstrates high-end finishes and sophisticated design&width=600&height=400&orientation=landscape&flag=03a60507-e0e7-40b5-a767-51ee5b2b7bfd",
-          "https://creatie.ai/ai/api/search-image?query=Modern bathroom interior with freestanding bathtub, double vanity, and premium fixtures. The space features marble tiles and excellent natural lighting&width=600&height=400&orientation=landscape&flag=4a0e5660-ef64-4196-93ce-513cf51381d5",
-          "https://creatie.ai/ai/api/search-image?query=Outdoor pool area of a luxury villa with infinity pool, comfortable loungers, and landscaped gardens. The scene is captured during sunset to highlight the premium outdoor living space&width=600&height=400&orientation=landscape&flag=2be0502e-8e39-4646-ba3a-af1e15385123"
+          "/Pedestal70_gallery1.jpg",
+          "/Pedestal70_gallery2.jpg",
+          "/Pedestal70_gallery3.jpg",
+          "/Pedestal70_gallery4.jpg"
         ]
       },
-      "floorPlan": "https://creatie.ai/ai/api/search-image?query=Modern architectural floor plan with detailed room layouts, measurements, and annotations. The design shows a spacious open-concept living area, multiple bedrooms, and outdoor spaces&width=1000&height=600&orientation=landscape&flag=0a313062-175d-4273-9e35-9238d40cabbb",
       "location": {
-        "map": "https://ai-public.creatie.ai/gen_page/map_placeholder_1280x720.png",
+        "map": "https://www.bptp.com/lp/bptp-amstoria/images/map.jpg",
         "amenities": [
-          { "icon": "shopping-bag", "text": "Shopping Center (0.5 mi)" },
-          { "icon": "graduation-cap", "text": "Schools (1.2 mi)" },
-          { "icon": "hospital", "text": "Medical Center (2.0 mi)" }
+          { "icon": "shopping-bag", "text": "Shopping Centers" },
+          { "icon": "graduation-cap", "text": "Nearby Schools" },
+          { "icon": "hospital", "text": "Healthcare Facilities" }
         ],
         "transportation": [
-          { "icon": "subway", "text": "Metro Station (0.8 mi)" },
-          { "icon": "bus", "text": "Bus Stop (0.3 mi)" },
-          { "icon": "plane", "text": "Airport (15 mi)" }
-        ]
-      },
-      "agent": {
-        "name": "Sarah Johnson",
-        "title": "Luxury Property Specialist",
-        "image": "https://creatie.ai/ai/api/search-image?query=Professional headshot of a real estate agent, well-dressed in business attire with a warm, friendly smile. The photo is taken against a neutral background with studio lighting&width=100&height=100&orientation=squarish&flag=31ecff3d-7b0a-4756-b149-c81cab03642e",
-        "rating": 5
-      },
-      "amenities": [
-        { "icon": "swimming-pool", "text": "Heated Pool" },
-        { "icon": "dumbbell", "text": "Fitness Center" },
-        { "icon": "car", "text": "3-Car Garage" },
-        { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "wine-glass", "text": "Wine Cellar" },
-        { "icon": "film", "text": "Home Theater" },
-        { "icon": "home", "text": "Smart Home System" },
-        { "icon": "fan", "text": "Central Air" }
-      ]
-    }
-},
-
-{
-    "property": {
-      "id" :"2",
-      "title": "BPTP Discovery Park",
-      "status": "For Sale",
-      "price": "Starting from ₹85.6 Lakh",
-      "details": {
-        "bedrooms": "2-3 BHK",
-        "area": "1120 sq ft onwards",
-        "yearBuilt": "New Launch"
-      },
-      "description": "BPTP Discovery Park offers high-rise housing with a perfect balance of contemporary lifestyle, open spaces, and active public areas. Located in Sector 80, Faridabad, it provides seamless connectivity to Gurugram and Delhi via expressways and metro.",
-      "keyFeatures": [
-        "The Discovery Lounge",
-        "Indoor Swimming Pool",
-        "Gym",
-        "Rock-Climbing Wall",
-        "Badminton Courts",
-        "Open Green Spaces"
-      ],
-      "images": {
-        "slider": [
-          "https://www.bptp.com/lp/discovery-park/images/slider1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/slider2.jpg"
-        ],
-        "gallery": [
-          "https://www.bptp.com/lp/discovery-park/images/gallery1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery2.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery3.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery4.jpg"
-        ]
-      },
-      "floorPlan": "https://www.bptp.com/lp/discovery-park/images/floorplan.jpg",
-      "location": {
-        "map": "https://www.bptp.com/lp/discovery-park/images/map.jpg",
-        "amenities": [
-          { "icon": "shopping-bag", "text": "Shopping Malls (5 min drive)" },
-          { "icon": "graduation-cap", "text": "Schools (5 min drive)" },
-          { "icon": "hospital", "text": "Hospitals (2 min drive)" }
-        ],
-        "transportation": [
-          { "icon": "subway", "text": "Metro Station (5 min walk)" },
-          { "icon": "bus", "text": "Bus Station (2 min drive)" },
-          { "icon": "train", "text": "Train Station (5 min drive)" }
+          { "icon": "subway", "text": "Metro Station (3 km)" },
+          { "icon": "bus", "text": "Bus Stop (1 km)" },
+          { "icon": "plane", "text": "IGI Airport (15 km)" }
         ]
       },
       "agent": {
         "name": "BPTP Sales Team",
-        "title": "Official Sales Representative",
-        "image": "https://www.bptp.com/lp/discovery-park/images/agent.jpg",
+        "title": "Real Estate Expert",
+        "image": "https://www.bptp.com/lp/bptp-amstoria/images/agent.jpg",
         "rating": 5
       },
       "amenities": [
-        { "icon": "swimming-pool", "text": "Indoor Swimming Pool" },
-        { "icon": "dumbbell", "text": "Gym" },
-        { "icon": "tree", "text": "Open Green Spaces" },
+        { "icon": "swimming-pool", "text": "Swimming Pool" },
+        { "icon": "gym", "text": "Gymnasium" },
+        { "icon": "car", "text": "Covered Car Parking" },
         { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "child", "text": "Children's Play Area" },
-        { "icon": "home", "text": "Club House" },
-        { "icon": "basketball-ball", "text": "Badminton Courts" },
-        { "icon": "mountain", "text": "Rock-Climbing Wall" }
+        { "icon": "home", "text": "Smart Home Features" }
       ]
     }
   },
   {
     "property": {
-      "id" :"1",
-      "title": "Modern Luxury Villa",
+      "id": "5",
+      "title": "District 6",
       "status": "For Sale",
-      "price": "$2,500,000",
+      "price": "Starting at ₹1.18 Cr",
+      "address": "Sector 84, Faridabad",
+      "city": "Faridabad",
+      "property_type": "Residential Plots",
       "details": {
-        "bedrooms": 4,
-        "baths": 3.5,
-        "area": "4,200 sq ft",
-        "yearBuilt": 2022
+        "plot_sizes": "118 - 180 Sq. Yards",
+        "township_size": "6.3 Acres",
+        "yearBuilt": "N/A"
       },
-      "description": "This stunning modern villa offers the perfect blend of luxury and comfort. Featuring an open-concept design with floor-to-ceiling windows that flood the space with natural light. The gourmet kitchen boasts premium appliances and a large island, perfect for entertaining. The primary suite includes a spa-like bathroom and walk-in closet. The outdoor space features a heated pool and landscaped gardens.",
+      "description": "District 6 is a premium plotted development offering a peaceful and secure environment in Sector 84, Faridabad. With meticulously planned green spaces, wide roads, and modern amenities, this community provides an excellent opportunity to build a home for generations to come.",
       "keyFeatures": [
-        "Smart Home Technology",
-        "Wine Cellar",
-        "Home Theater",
-        "3-Car Garage"
+        "Gated community with security",
+        "Wide 9-meter internal roads",
+        "Landscaped greens and fitness park",
+        "Power backup provision",
+        "Electric vehicle charging points",
+        "Cycle stands and e-shuttle services",
+        "Future-ready infrastructure"
       ],
       "images": {
         "slider": [
-          "aa164369439820220201.jpg",
-          "aa164369439820220201.jpg"
+          "/District6_slider1.jpg",
+          "/District6_slider2.jpg"
         ],
         "gallery": [
-          "https://creatie.ai/ai/api/search-image?query=Modern kitchen interior with marble countertops, high-end appliances, and minimalist design. The space features excellent lighting and a large island, photographed to showcase its premium finishes&width=600&height=400&orientation=landscape&flag=019363ed-fa18-46d6-9429-2a5d93b5e3c5",
-          "https://creatie.ai/ai/api/search-image?query=Luxury master bedroom with en-suite bathroom, featuring a king-size bed, designer furniture, and large windows with scenic views. The room demonstrates high-end finishes and sophisticated design&width=600&height=400&orientation=landscape&flag=03a60507-e0e7-40b5-a767-51ee5b2b7bfd",
-          "https://creatie.ai/ai/api/search-image?query=Modern bathroom interior with freestanding bathtub, double vanity, and premium fixtures. The space features marble tiles and excellent natural lighting&width=600&height=400&orientation=landscape&flag=4a0e5660-ef64-4196-93ce-513cf51381d5",
-          "https://creatie.ai/ai/api/search-image?query=Outdoor pool area of a luxury villa with infinity pool, comfortable loungers, and landscaped gardens. The scene is captured during sunset to highlight the premium outdoor living space&width=600&height=400&orientation=landscape&flag=2be0502e-8e39-4646-ba3a-af1e15385123"
+          "/District6_gallery1.jpg",
+          "/District6_gallery2.jpg",
+          "/District6_gallery4.jpg",
+          "/District6_gallery5.jpg"
         ]
       },
-      "floorPlan": "https://creatie.ai/ai/api/search-image?query=Modern architectural floor plan with detailed room layouts, measurements, and annotations. The design shows a spacious open-concept living area, multiple bedrooms, and outdoor spaces&width=1000&height=600&orientation=landscape&flag=0a313062-175d-4273-9e35-9238d40cabbb",
       "location": {
-        "map": "https://ai-public.creatie.ai/gen_page/map_placeholder_1280x720.png",
+        "map": "https://www.bptp.com/lp/district6/images/map.jpg",
         "amenities": [
-          { "icon": "shopping-bag", "text": "Shopping Center (0.5 mi)" },
-          { "icon": "graduation-cap", "text": "Schools (1.2 mi)" },
-          { "icon": "hospital", "text": "Medical Center (2.0 mi)" }
+          { "icon": "shopping-bag", "text": "Convenient Shopping (5 Min. Drive)" },
+          { "icon": "graduation-cap", "text": "World-Class Schools (5 Min. Drive)" },
+          { "icon": "hospital", "text": "Hospitals (5-10 Min. Drive)" }
         ],
         "transportation": [
-          { "icon": "subway", "text": "Metro Station (0.8 mi)" },
-          { "icon": "bus", "text": "Bus Stop (0.3 mi)" },
-          { "icon": "plane", "text": "Airport (15 mi)" }
-        ]
-      },
-      "agent": {
-        "name": "Sarah Johnson",
-        "title": "Luxury Property Specialist",
-        "image": "https://creatie.ai/ai/api/search-image?query=Professional headshot of a real estate agent, well-dressed in business attire with a warm, friendly smile. The photo is taken against a neutral background with studio lighting&width=100&height=100&orientation=squarish&flag=31ecff3d-7b0a-4756-b149-c81cab03642e",
-        "rating": 5
-      },
-      "amenities": [
-        { "icon": "swimming-pool", "text": "Heated Pool" },
-        { "icon": "dumbbell", "text": "Fitness Center" },
-        { "icon": "car", "text": "3-Car Garage" },
-        { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "wine-glass", "text": "Wine Cellar" },
-        { "icon": "film", "text": "Home Theater" },
-        { "icon": "home", "text": "Smart Home System" },
-        { "icon": "fan", "text": "Central Air" }
-      ]
-    }
-},
-
-{
-    "property": {
-      "id" :"2",
-      "title": "BPTP Discovery Park",
-      "status": "For Sale",
-      "price": "Starting from ₹85.6 Lakh",
-      "details": {
-        "bedrooms": "2-3 BHK",
-        "area": "1120 sq ft onwards",
-        "yearBuilt": "New Launch"
-      },
-      "description": "BPTP Discovery Park offers high-rise housing with a perfect balance of contemporary lifestyle, open spaces, and active public areas. Located in Sector 80, Faridabad, it provides seamless connectivity to Gurugram and Delhi via expressways and metro.",
-      "keyFeatures": [
-        "The Discovery Lounge",
-        "Indoor Swimming Pool",
-        "Gym",
-        "Rock-Climbing Wall",
-        "Badminton Courts",
-        "Open Green Spaces"
-      ],
-      "images": {
-        "slider": [
-          "https://www.bptp.com/lp/discovery-park/images/slider1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/slider2.jpg"
-        ],
-        "gallery": [
-          "https://www.bptp.com/lp/discovery-park/images/gallery1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery2.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery3.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery4.jpg"
-        ]
-      },
-      "floorPlan": "https://www.bptp.com/lp/discovery-park/images/floorplan.jpg",
-      "location": {
-        "map": "https://www.bptp.com/lp/discovery-park/images/map.jpg",
-        "amenities": [
-          { "icon": "shopping-bag", "text": "Shopping Malls (5 min drive)" },
-          { "icon": "graduation-cap", "text": "Schools (5 min drive)" },
-          { "icon": "hospital", "text": "Hospitals (2 min drive)" }
-        ],
-        "transportation": [
-          { "icon": "subway", "text": "Metro Station (5 min walk)" },
-          { "icon": "bus", "text": "Bus Station (2 min drive)" },
-          { "icon": "train", "text": "Train Station (5 min drive)" }
+          { "icon": "subway", "text": "Metro Station (5 Min. Drive)" },
+          { "icon": "bus", "text": "Bus Stop (5 Min. Drive)" },
+          { "icon": "plane", "text": "IGI Airport (30 Min. Drive)" }
         ]
       },
       "agent": {
         "name": "BPTP Sales Team",
-        "title": "Official Sales Representative",
-        "image": "https://www.bptp.com/lp/discovery-park/images/agent.jpg",
+        "title": "Real Estate Expert",
+        "image": "https://www.bptp.com/lp/district6/images/agent.jpg",
         "rating": 5
       },
       "amenities": [
-        { "icon": "swimming-pool", "text": "Indoor Swimming Pool" },
-        { "icon": "dumbbell", "text": "Gym" },
-        { "icon": "tree", "text": "Open Green Spaces" },
-        { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "child", "text": "Children's Play Area" },
-        { "icon": "home", "text": "Club House" },
-        { "icon": "basketball-ball", "text": "Badminton Courts" },
-        { "icon": "mountain", "text": "Rock-Climbing Wall" }
-      ]
-    }
-  },{
-    "property": {
-      "id" :"1",
-      "title": "Modern Luxury Villa",
-      "status": "For Sale",
-      "price": "$2,500,000",
-      "details": {
-        "bedrooms": 4,
-        "baths": 3.5,
-        "area": "4,200 sq ft",
-        "yearBuilt": 2022
-      },
-      "description": "This stunning modern villa offers the perfect blend of luxury and comfort. Featuring an open-concept design with floor-to-ceiling windows that flood the space with natural light. The gourmet kitchen boasts premium appliances and a large island, perfect for entertaining. The primary suite includes a spa-like bathroom and walk-in closet. The outdoor space features a heated pool and landscaped gardens.",
-      "keyFeatures": [
-        "Smart Home Technology",
-        "Wine Cellar",
-        "Home Theater",
-        "3-Car Garage"
-      ],
-      "images": {
-        "slider": [
-          "aa164369439820220201.jpg",
-          "aa164369439820220201.jpg"
-        ],
-        "gallery": [
-          "https://creatie.ai/ai/api/search-image?query=Modern kitchen interior with marble countertops, high-end appliances, and minimalist design. The space features excellent lighting and a large island, photographed to showcase its premium finishes&width=600&height=400&orientation=landscape&flag=019363ed-fa18-46d6-9429-2a5d93b5e3c5",
-          "https://creatie.ai/ai/api/search-image?query=Luxury master bedroom with en-suite bathroom, featuring a king-size bed, designer furniture, and large windows with scenic views. The room demonstrates high-end finishes and sophisticated design&width=600&height=400&orientation=landscape&flag=03a60507-e0e7-40b5-a767-51ee5b2b7bfd",
-          "https://creatie.ai/ai/api/search-image?query=Modern bathroom interior with freestanding bathtub, double vanity, and premium fixtures. The space features marble tiles and excellent natural lighting&width=600&height=400&orientation=landscape&flag=4a0e5660-ef64-4196-93ce-513cf51381d5",
-          "https://creatie.ai/ai/api/search-image?query=Outdoor pool area of a luxury villa with infinity pool, comfortable loungers, and landscaped gardens. The scene is captured during sunset to highlight the premium outdoor living space&width=600&height=400&orientation=landscape&flag=2be0502e-8e39-4646-ba3a-af1e15385123"
-        ]
-      },
-      "floorPlan": "https://creatie.ai/ai/api/search-image?query=Modern architectural floor plan with detailed room layouts, measurements, and annotations. The design shows a spacious open-concept living area, multiple bedrooms, and outdoor spaces&width=1000&height=600&orientation=landscape&flag=0a313062-175d-4273-9e35-9238d40cabbb",
-      "location": {
-        "map": "https://ai-public.creatie.ai/gen_page/map_placeholder_1280x720.png",
-        "amenities": [
-          { "icon": "shopping-bag", "text": "Shopping Center (0.5 mi)" },
-          { "icon": "graduation-cap", "text": "Schools (1.2 mi)" },
-          { "icon": "hospital", "text": "Medical Center (2.0 mi)" }
-        ],
-        "transportation": [
-          { "icon": "subway", "text": "Metro Station (0.8 mi)" },
-          { "icon": "bus", "text": "Bus Stop (0.3 mi)" },
-          { "icon": "plane", "text": "Airport (15 mi)" }
-        ]
-      },
-      "agent": {
-        "name": "Sarah Johnson",
-        "title": "Luxury Property Specialist",
-        "image": "https://creatie.ai/ai/api/search-image?query=Professional headshot of a real estate agent, well-dressed in business attire with a warm, friendly smile. The photo is taken against a neutral background with studio lighting&width=100&height=100&orientation=squarish&flag=31ecff3d-7b0a-4756-b149-c81cab03642e",
-        "rating": 5
-      },
-      "amenities": [
-        { "icon": "swimming-pool", "text": "Heated Pool" },
+        { "icon": "swimming-pool", "text": "Swimming Pool" },
         { "icon": "dumbbell", "text": "Fitness Center" },
-        { "icon": "car", "text": "3-Car Garage" },
+        { "icon": "car", "text": "Parking Space" },
         { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "wine-glass", "text": "Wine Cellar" },
-        { "icon": "film", "text": "Home Theater" },
-        { "icon": "home", "text": "Smart Home System" },
-        { "icon": "fan", "text": "Central Air" }
+        { "icon": "home", "text": "Smart Home Features" }
       ]
     }
-},
-
-{
+  },
+  {
     "property": {
-      "id" :"2",
-      "title": "BPTP Discovery Park",
+      "id": "6",
+      "title": "BPTP District New",
       "status": "For Sale",
-      "price": "Starting from ₹85.6 Lakh",
+      "price": "Starting at ₹1.13 Cr",
+      "address": "Sector 81, 84 & 85, Faridabad",
+      "city": "Faridabad",
+      "property_type": "Residential Plots",
       "details": {
-        "bedrooms": "2-3 BHK",
-        "area": "1120 sq ft onwards",
-        "yearBuilt": "New Launch"
+        "plot_sizes": "113 - 180 Sq. Yards (94.48 – 150.50 Sq. Mtrs.)",
+        "township_size": "N/A",
+        "yearBuilt": "N/A"
       },
-      "description": "BPTP Discovery Park offers high-rise housing with a perfect balance of contemporary lifestyle, open spaces, and active public areas. Located in Sector 80, Faridabad, it provides seamless connectivity to Gurugram and Delhi via expressways and metro.",
+      "description": "BPTP District New is a modern residential plotted development in Faridabad offering a harmonious and secure environment. It features state-of-the-art infrastructure, including smart sprinkler systems, landscaped greens, and future-ready features like electric vehicle charging points.",
       "keyFeatures": [
-        "The Discovery Lounge",
-        "Indoor Swimming Pool",
-        "Gym",
-        "Rock-Climbing Wall",
-        "Badminton Courts",
-        "Open Green Spaces"
+        "Gated community with manned entry & exit points",
+        "Wide 9-meter internal roads",
+        "Natural makeup with landscaped greens",
+        "Power backup provision",
+        "Electric vehicle charging points",
+        "Cycle stands & e-shuttle services",
+        "Managed community living with dual piping water supply system"
       ],
       "images": {
         "slider": [
-          "https://www.bptp.com/lp/discovery-park/images/slider1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/slider2.jpg"
+          "/DistrictNew_slider1.jpg",
+          "/DistrictNew_slider1.jpg"
         ],
         "gallery": [
-          "https://www.bptp.com/lp/discovery-park/images/gallery1.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery2.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery3.jpg",
-          "https://www.bptp.com/lp/discovery-park/images/gallery4.jpg"
+          "/DistrictNew_gallery1.jpg",
+          "/DistrictNew_gallery2.jpg",
+          "/DistrictNew_gallery3.jpg",
+          "/DistrictNew_gallery4.jpg"
         ]
       },
-      "floorPlan": "https://www.bptp.com/lp/discovery-park/images/floorplan.jpg",
       "location": {
-        "map": "https://www.bptp.com/lp/discovery-park/images/map.jpg",
+        "map": "/DistrictNew_gallery4.jpg",
         "amenities": [
-          { "icon": "shopping-bag", "text": "Shopping Malls (5 min drive)" },
-          { "icon": "graduation-cap", "text": "Schools (5 min drive)" },
-          { "icon": "hospital", "text": "Hospitals (2 min drive)" }
+          { "icon": "shopping-bag", "text": "Convenient Shopping (5 Min. Drive)" },
+          { "icon": "graduation-cap", "text": "Nearby Schools (5 Min. Drive)" },
+          { "icon": "hospital", "text": "Hospitals (5-10 Min. Drive)" }
         ],
         "transportation": [
-          { "icon": "subway", "text": "Metro Station (5 min walk)" },
-          { "icon": "bus", "text": "Bus Station (2 min drive)" },
-          { "icon": "train", "text": "Train Station (5 min drive)" }
+          { "icon": "subway", "text": "Metro Station (5 Min. Drive)" },
+          { "icon": "bus", "text": "Bus Stop (5 Min. Drive)" },
+          { "icon": "plane", "text": "IGI Airport (30 Min. Drive)" }
         ]
       },
       "agent": {
         "name": "BPTP Sales Team",
-        "title": "Official Sales Representative",
-        "image": "https://www.bptp.com/lp/discovery-park/images/agent.jpg",
+        "title": "Real Estate Expert",
+        "image": "https://www.bptp.com/lp/district-new/images/agent.jpg",
         "rating": 5
       },
       "amenities": [
-        { "icon": "swimming-pool", "text": "Indoor Swimming Pool" },
-        { "icon": "dumbbell", "text": "Gym" },
-        { "icon": "tree", "text": "Open Green Spaces" },
+        { "icon": "swimming-pool", "text": "Swimming Pool" },
+        { "icon": "dumbbell", "text": "Fitness Center" },
+        { "icon": "car", "text": "Parking Space" },
         { "icon": "shield-alt", "text": "24/7 Security" },
-        { "icon": "child", "text": "Children's Play Area" },
-        { "icon": "home", "text": "Club House" },
-        { "icon": "basketball-ball", "text": "Badminton Courts" },
-        { "icon": "mountain", "text": "Rock-Climbing Wall" }
+        { "icon": "home", "text": "Smart Home Features" }
       ]
     }
   }
