@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Property Listings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-6">Property Listings</h1>
+            
+            <div class="bg-white p-4 rounded-lg shadow-sm flex flex-wrap gap-4 items-center">
+                <div class="flex-1 min-w-[200px]">
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Landmark</label>
+                    <select class="w-full border-gray-300 rounded-md shadow-sm !rounded-button">
+                        <option value="">All Landmarks</option>
+                        <option value="Sec-9">Sec-9</option>
+                    </select>
+                </div>
+                
+                <div class="flex-1 min-w-[200px]">
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Layout</label>
+                    <select class="w-full border-gray-300 rounded-md shadow-sm !rounded-button">
+                        <option value="">All BHK</option>
+                        <option value="3">3 BHK</option>
+                    </select>
+                </div>
+                
+                <button class="bg-gray-100 text-gray-600 px-4 py-2 rounded-md hover:bg-gray-200 transition-colors mt-6 !rounded-button">
+                    <i class="fas fa-times mr-2"></i>Clear Filters
+                </button>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition-shadow">
+                <div class="p-6 space-y-4"><div class="relative w-full h-64 overflow-x-auto snap-x snap-mandatory flex"><img src="https://placehold.co/600x400" class="w-full h-full object-cover flex-shrink-0 snap-center" alt="Property Image 1"/><img src="https://placehold.co/600x400" class="w-full h-full object-cover flex-shrink-0 snap-center" alt="Property Image 2"/><img src="https://placehold.co/600x400" class="w-full h-full object-cover flex-shrink-0 snap-center" alt="Property Image 3"/><div class="absolute bottom-4 left-0 right-0 flex justify-center gap-2"><span class="w-2 h-2 rounded-full bg-white/70"></span><span class="w-2 h-2 rounded-full bg-white/70"></span><span class="w-2 h-2 rounded-full bg-white/70"></span></div></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900">RAJ RANI BINDAL</h3>
+                            <p class="text-sm text-gray-500">Property ID: 1</p>
+                        </div>
+                        <div class="text-sm text-gray-500">
+                            Tracking #610
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <p class="text-sm text-gray-500">Property Type</p>
+                            <p class="font-medium">Builder Floor</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Floor</p>
+                            <p class="font-medium">Floor - 3-4</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Layout</p>
+                            <p class="font-medium text-custom">3 BHK</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Size</p>
+                            <p class="font-medium">250 S/Y</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Landmark</p>
+                            <p class="font-medium">Sec-9</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Price</p>
+                            <p class="font-semibold text-custom">1.4/1.5Cr</p>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm text-gray-500 mb-1">Address &amp; Other Details</p>
+                        <p class="text-sm">no-1111, 3 BHK, (Personal parking, Servant Room)</p>
+                    </div>
+                    <button class="w-full bg-custom text-white py-3 px-4 rounded-md hover:bg-custom/90 transition-all transform hover:scale-[1.02] active:scale-[0.98] !rounded-button">
+                        <i class="fas fa-phone-alt mr-2"></i>Contact Agent
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>

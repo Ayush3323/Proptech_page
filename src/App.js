@@ -5,6 +5,7 @@ import Subpage from "./components/Subpage/Subpage";
 import Propertypage from "./components/Otherpages/Propertypage.jsx"
 import ContactPage from "./components/Otherpages/ContactPage.jsx";
 import About from "./components/Otherpages/About.jsx";
+import PropertyListings from "./components/Builderpage/PropertyListings.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Property" element={<Propertypage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/prop" element={<PropertyListings/>}/>
       </Routes>
     </Router>
   );

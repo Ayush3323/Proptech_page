@@ -264,7 +264,7 @@ const Footer = () => {
         </motion.div>
 
         {/* Contributors Section */}
-        <motion.div 
+        {/* <motion.div 
           className="mt-12 text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -290,7 +290,7 @@ const Footer = () => {
               </motion.a>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Copyright Section */}
         <motion.div 
@@ -299,12 +299,12 @@ const Footer = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          <a href="https://maydiv.com/">
+          <a href="">
             <motion.p 
               className="text-gray-400 hover:text-custom transition"
               whileHover={{ scale: 1.02 }}
             >
-              © 2024 MAYDIV Infotech. All rights reserved.
+              © 2024 . All rights reserved.
             </motion.p>
           </a>
         </motion.div>
