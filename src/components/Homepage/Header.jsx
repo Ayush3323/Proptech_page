@@ -88,7 +88,7 @@
 
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, wrap } from "framer-motion";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 
 import data from "../data.json";
@@ -127,7 +127,7 @@ const Header = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <div className="max-w-4xl px-6">
+          <div className="max-w-4xl px-6" style={{overflow:"auto"}}>
             <motion.h1
               className="font-[\'Playfair_Display\'] text-5xl md:text-7xl text-white mb-6"
               initial={{ y: -20, opacity: 0 }}
@@ -150,11 +150,12 @@ const Header = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, delay: 1 }}
             >
-              <form className="flex space-x-4 justify-center" onSubmit={handleSearch}>
+              <form className="flex space-x-4 justify-center" onSubmit={handleSearch} style={{flexWrap:"wrap"}}>
                 {[propertyTypes, ["Faridabad", "Noida", "Gurugram"], statuses].map((options, i) => (
                   <motion.select
                     key={i}
                     className="bg-transparent text-white border border-white rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-custom cursor-pointer"
+                    style={{margin:"10px"}}
                     value={i === 0 ? propertyType : i === 1 ? location : status}
                     onChange={(e) =>
                       i === 0 ? setPropertyType(e.target.value) : i === 1 ? setLocation(e.target.value) : setStatus(e.target.value)
