@@ -24,7 +24,7 @@ function Navbar() {
   const links = [
     { path: "/", label: "Home" },
     { path: "/about", label: "About" },
-    { path: "/Property", label: "Properties" },
+    { path: "/prop", label: "Properties" },
     { path: "/contact", label: "Contact" },
   ];
 

@@ -33,7 +33,7 @@ const PropertyListings = () => {
     <Navbar />
     <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="mb-8 mt-12">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">Property Listings</h1>
+        <h1 style={{textAlign:'center'}} className="text-3xl font-bold text-gray-900 mb-6">Builder Property </h1>
         
         <div className="bg-white p-4 rounded-lg shadow-sm flex flex-wrap gap-4 items-center">
           <div className="flex-1 min-w-[200px]">
