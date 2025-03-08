@@ -5,6 +5,7 @@ import Properties from "./Properties";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import WhatsappButton from './WhatsappButton';
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
         <Properties />
         <Testimonials />
         <Contact />
+        <WhatsappButton />
         <Footer />
     </div>
   );

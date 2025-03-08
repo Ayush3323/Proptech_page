@@ -193,6 +193,7 @@ import propertiesData from "../properties.json";
 import Contact from "../Homepage/Contact";
 import Footer from "../Homepage/Footer";
 import Navbar from "../Homepage/Navbar";
+import WhatsappButton from "../Homepage/WhatsappButton";
 
 const PropertyListings = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -284,6 +285,7 @@ const PropertyListings = () => {
           ))}
         </div>
       </div>
+      <WhatsappButton />
       <Contact />
       <Footer />
     </>

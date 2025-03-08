@@ -6,6 +6,7 @@ import { faBed, faBath, faVectorSquare } from "@fortawesome/free-solid-svg-icons
 import Footer from "../Homepage/Footer"; // Import Footer component
 import Navbar from "../Homepage/Navbar"; // Import Navbar
 import Contact from "../Homepage/Contact";
+import WhatsappButton from "../Homepage/WhatsappButton";
 
 const Properties = () => {
   const location = useLocation();
@@ -151,6 +152,7 @@ const Properties = () => {
         </div>
       </section>
       </div>
+      <WhatsappButton />
       <Contact />
       <Footer />
     </>

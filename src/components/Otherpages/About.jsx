@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Homepage/Footer";
 import Navbar from "../Homepage/Navbar";
+import WhatsappButton from "../Homepage/WhatsappButton";
 
 const About = () => {
   return (
@@ -169,7 +170,7 @@ const About = () => {
           </div>
         </div>
       </section>
-
+      <WhatsappButton />
       <Footer />
     </>
   );
