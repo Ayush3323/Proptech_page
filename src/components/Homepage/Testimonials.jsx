@@ -65,20 +65,20 @@ import { useInView } from "react-intersection-observer";
 const Testimonials = () => {
   const testimonials = [
     {
-      image: "234d7f58-421b-40ff-844f-db80c53f74b6.jpg",
-      name: "Sarah Johnson",
-      role: "CEO, Tech Corp",
+      image: "/Testimg1.jpg",
+      name: "Divyanshu",
+      role: "Tech Corp",
       quote: "An absolutely magnificent experience. The attention to detail and level of service exceeded all expectations.",
     },
     {
-      image: "bc93e881-dabe-4d8b-a2fb-791c9cfe6202.jpg",
-      name: "Michael Chen",
+      image: "/Testimg2.jpg",
+      name: "Harinder",
       role: "Executive Director",
       quote: "The epitome of luxury living. Every moment spent here was pure perfection.",
     },
     {
-      image: "51f5ba96-ca13-4cd3-97c7-6bc8e2512610.jpg",
-      name: "Emily Martinez",
+      image: "/Testimg3.jpeg",
+      name: "Mayank",
       role: "Design Director",
       quote: "Impeccable service, stunning design, and unmatched hospitality. A truly remarkable experience.",
     },

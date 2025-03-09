@@ -261,13 +261,13 @@ function Navbar() {
 
         {/* Mobile Navigation - Fixed dark background */}
         <motion.div
-          className="md:hidden m-1 fixed top-0 right-0 h-full w-64 bg-gray-200 z-40 shadow-xl"
+          className="md:hidden m-1 fixed top-0 right-0 h-full w-64 bg-gray-200 z-40 shadow-xl" style={{borderRadius:'10px'}}
           initial="closed"
           animate={isMenuOpen ? "open" : "closed"}
           variants={mobileMenuVariants}
           transition={{ duration: 0.3 }}
         >
-          <div className="h-full flex flex-col items-start justify-start bg-gray-900 space-y-6 pt-20 pl-6" style={{height:"350px"}}>
+          <div className="h-full flex flex-col items-start justify-start bg-gray-900 space-y-6 pt-20 pl-6" style={{height:"350px",borderRadius:'10px'}}>
             {links.map((link) => (
               <Link
                 key={link.path}

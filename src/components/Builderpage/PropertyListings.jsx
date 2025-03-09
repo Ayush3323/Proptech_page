@@ -322,7 +322,8 @@ const PropertyCard = ({ property }) => {
         <div style={{ minHeight: "330px" }}>
           <div className="flex justify-between items-start mb-4">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900">{property.Name}</h3>
+              {/* <h3 className="text-lg font-semibold text-gray-900">{property.Name}</h3> */}
+              <h3 className="text-lg font-semibold text-gray-900">J K Homes</h3>
             </div>
             {property.TrakingNo && (
               <div className="text-sm text-gray-500">
@@ -370,12 +371,14 @@ const PropertyCard = ({ property }) => {
             </div>
           )}
         </div>
-        <button className="w-full bg-gray-900/95 text-white py-3 px-4 rounded-md 
-                 hover:bg-gray-900/95 transition-all duration-200 active:scale-[0.98] 
-                 flex items-center justify-center gap-2">
-          <FaPhoneAlt className="text-white inline-block" />
-          <span>Contact Agent</span>
-        </button>
+        <a href="tel:9520623853">
+          <button className="w-full bg-gray-900/95 text-white py-3 px-4 rounded-md 
+                        hover:bg-gray-900/95 transition-all duration-200 active:scale-[0.98] 
+                        flex items-center justify-center gap-2">
+            <FaPhoneAlt className="text-white inline-block" />
+            <span>Contact Agent</span>
+          </button>
+        </a>
       </div>
     </div>
   );
