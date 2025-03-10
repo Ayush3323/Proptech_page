@@ -371,7 +371,7 @@ const PropertyCard = ({ property }) => {
             </div>
           )}
         </div>
-        <a href="tel:9520623853">
+        <a href="tel:9899908898">
           <button className="w-full bg-gray-900/95 text-white py-3 px-4 rounded-md 
                         hover:bg-gray-900/95 transition-all duration-200 active:scale-[0.98] 
                         flex items-center justify-center gap-2">

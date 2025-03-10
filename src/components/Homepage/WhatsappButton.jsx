@@ -3,7 +3,7 @@ import React from 'react';
 const WhatsappButton = () => {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=+918750248910&text=Property Search!"
+      href="https://api.whatsapp.com/send?phone=+919899908898&text=Property Search!"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-7 right-5 z-50 w-16 h-16 bg-[#25d366] rounded-full flex items-center justify-center shadow-lg"
