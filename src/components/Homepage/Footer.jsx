@@ -105,7 +105,7 @@ const Footer = () => {
           <motion.div variants={staggerVariants}>
             <h4 className="font-playfair text-lg mb-4">Our Cities</h4>
             <ul className="space-y-2">
-              {['Noida', 'Faridabad', 'Gurugram'].map((city, index) => (
+              {['Faridabad','Noida'].map((city, index) => (
                 <motion.li 
                   key={city}
                   initial={{ opacity: 0, y: 10 }}
