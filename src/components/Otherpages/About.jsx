@@ -31,7 +31,7 @@ const About = () => {
               <div className="text-gray-600">Premium Properties Listed</div>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <div className="text-4xl font-bold mb-2">$15B+</div>
+              <div className="text-4xl font-bold mb-2">₹15B+</div>
               <div className="text-gray-600">In Property Transactions</div>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">

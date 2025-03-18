@@ -249,14 +249,14 @@ const Header = () => {
         <Slider {...sliderSettings} className="h-full">
           {bannerImages.map((image, index) => (
             <div key={index} className="h-[80vh] focus:outline-none">
-              <motion.img
+        <motion.img
                 src={image}
                 alt={`Luxury Property ${index + 1}`}
-                className="w-full h-full object-cover"
-                initial={{ scale: 1.1, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ duration: 1 }}
-              />
+          className="w-full h-full object-cover"
+          initial={{ scale: 1.1, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1 }}
+        />
             </div>
           ))}
         </Slider>

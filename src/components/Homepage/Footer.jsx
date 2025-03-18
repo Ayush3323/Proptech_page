@@ -130,7 +130,7 @@ const Footer = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8 }}
               >
-                Email: <a href="mailto:jkhomesandrealty@gmail.com" className="text-custom hover:underline">jkhomesandrealty@gmail.com</a>
+                Email: <br className="md:hidden" /><a href="mailto:jkhomesandrealty@gmail.com" className="text-custom hover:underline break-all">jkhomesandrealty@gmail.com</a>
               </motion.p>
               <motion.p 
                 className="text-white"
