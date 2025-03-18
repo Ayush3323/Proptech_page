@@ -1,16 +1,150 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import propertiesData from "../properties.json";
 import Navbar from "./Navbar";
 
+// Popup Modal Component
+const LeadCaptureModal = ({ isOpen, onClose }) => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    try {
+      const response = await fetch("https://formspree.io/f/mzzdlovd", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          _subject: "New Lead Capture From Homepage Popup",
+        }),
+      });
+      
+      if (response.ok) {
+        setSubmitted(true);
+        // Store in localStorage to prevent showing again
+        localStorage.setItem("popupShown", "true");
+        setTimeout(() => {
+          onClose();
+        }, 2000);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+  };
+
+  return (
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+          <motion.div
+            className="bg-white rounded-lg shadow-xl p-8 max-w-md w-full mx-4"
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0.9, opacity: 0 }}
+            transition={{ type: "spring", damping: 25 }}
+          >
+            <div className="flex justify-between items-center mb-6">
+              <h3 className="text-2xl font-bold text-gray-800">Stay Updated</h3>
+              <button
+                onClick={onClose}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            
+            {submitted ? (
+              <div className="text-center py-6">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-green-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <h4 className="text-xl font-medium text-gray-800 mb-2">Thank You!</h4>
+                <p className="text-gray-600">We'll keep you updated on our latest properties and offers.</p>
+              </div>
+            ) : (
+              <>
+                <p className="text-gray-600 mb-6">
+                  Sign up to receive exclusive updates on new luxury properties and special offers.
+                </p>
+                
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div>
+                    <input
+                      type="text"
+                      required
+                      placeholder="Your Name"
+                      className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-custom focus:border-transparent"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      required
+                      placeholder="Your Email"
+                      className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-custom focus:border-transparent"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    className="w-full bg-custom text-white font-medium py-3 rounded-md hover:bg-opacity-90 transition-colors"
+                    style={{ background: "rebeccapurple" }}
+                  >
+                    Subscribe
+                  </button>
+                </form>
+                
+                <p className="text-xs text-gray-500 mt-4 text-center">
+                  By subscribing, you agree to our privacy policy and terms of service.
+                </p>
+              </>
+            )}
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+};
+
 const Header = () => {
   const [landmark, setLandmark] = useState("");
   const [layout, setLayout] = useState("");
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    // Check if popup has been shown before
+    const hasBeenShown = localStorage.getItem("popupShown");
+    
+    if (!hasBeenShown) {
+      // Show popup after 5 seconds
+      const timer = setTimeout(() => {
+        setShowModal(true);
+      }, 5000);
+      
+      return () => clearTimeout(timer);
+    }
+  }, []);
 
   // Add custom CSS for slider dots
   useEffect(() => {
@@ -219,6 +353,12 @@ const Header = () => {
           </div>
         </motion.div>
       </div>
+
+      {/* Lead Capture Popup Modal */}
+      <LeadCaptureModal 
+        isOpen={showModal} 
+        onClose={() => setShowModal(false)} 
+      />
     </header>
   );
 };
