@@ -50,7 +50,7 @@ const About = () => {
                 estate and digital transformation.
               </p>
               <p className="text-gray-600">
-                Our AI-powered platform now serves clients in 12 countries, offering
+                Our AI-powered platform now serves clients, offering
                 predictive analytics, virtual property tours, and smart contract solutions
                 that redefine property transactions.
               </p>
@@ -86,8 +86,7 @@ const About = () => {
                 </svg>
                 <h3 className="text-2xl font-semibold">Innovation Driven</h3>
                 <p className="text-gray-600">
-                  Constantly pushing boundaries in proptech with AI, blockchain,
-                  and immersive technologies.
+                  Leveraging technology to enhance real estate experiences, making property transactions smoother, smarter, and more efficient.
                 </p>
               </div>
 
@@ -108,8 +107,7 @@ const About = () => {
                 </svg>
                 <h3 className="text-2xl font-semibold">Trust & Transparency</h3>
                 <p className="text-gray-600">
-                  Blockchain-backed transactions and open communication form
-                  the foundation of every deal.
+                  Ensuring honest dealings and clear communication to build lasting relationships in real estate.
                 </p>
               </div>
 
@@ -138,7 +136,7 @@ const About = () => {
           </div>
 
           {/* Team Section */}
-          <div className="mt-20">
+          {/* <div className="mt-20">
             <h2 className="font-playfair text-4xl text-center mb-12">Leadership Team</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[1, 2, 3].map((item) => (
@@ -155,7 +153,7 @@ const About = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* CTA Section */}
           <div className="mt-20 bg-gray-50 rounded-xl p-12 text-center">

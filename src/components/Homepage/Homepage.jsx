@@ -9,7 +9,7 @@ import WhatsappButton from './WhatsappButton';
 
 const Homepage = () => {
   return (
-    <div className="font-poppins bg-gray-50">
+    <div className="font-poppins bg-gray-50" style={{overflowX: 'hidden'}}>
         <Header />
         <Services />
         <Properties />

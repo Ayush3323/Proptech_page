@@ -41,7 +41,7 @@ const ContactPage = () => {
                 </svg>
                 <div>
                   <p className="font-medium text-gray-800">Contact Number</p>
-                  <p className="text-gray-600">+91 11 2345 6789<br/>Mon-Fri: 9am - 7pm IST</p>
+                  <p className="text-gray-600">+91 98999 08898<br/>Mon-Fri: 9am - 7pm IST</p>
                 </div>
               </div>
               
@@ -51,7 +51,7 @@ const ContactPage = () => {
                 </svg>
                 <div>
                   <p className="font-medium text-gray-800">Email Address</p>
-                  <p className="text-gray-600">contact@luxeproptech.com<br/>support@luxeproptech.com</p>
+                  <p className="text-gray-600">jkhomesandrealty@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ const ContactPage = () => {
           
           {/* Map Section */}
           <div className="space-y-8">
-            <div className="bg-gray-50 p-8 rounded-lg">
+            {/* <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="font-playfair text-2xl mb-4">Schedule a Consultation</h3>
               <p className="text-gray-600 mb-6">
                 Book a private consultation with our luxury property specialists 
@@ -108,8 +108,8 @@ const ContactPage = () => {
               <button className="w-full bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition">
                 Schedule Now
               </button>
-            </div>
-            <div className="h-[500px] rounded-lg overflow-hidden">
+            </div> */}
+            <div className="h-[500px] rounded-lg overflow-hidden" style={{marginTop:'10%'}}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.95538794185!2d76.8130632078125!3d28.64428055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sus!4v1644945248000!5m2!1sen!2sus"
                 width="100%"
