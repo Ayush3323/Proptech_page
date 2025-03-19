@@ -97,9 +97,9 @@ const LeadCaptureModal = ({ isOpen, onClose }) => {
                   </div>
                   <div>
                     <input
-                      type="email"
+                      type="tel"
                       required
-                      placeholder="Your Email"
+                      placeholder="Your Phone Number"
                       className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-custom focus:border-transparent"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}

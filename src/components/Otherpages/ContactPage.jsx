@@ -31,7 +31,7 @@ const ContactPage = () => {
                 </svg>
                 <div>
                   <p className="font-medium text-gray-800">Headquarters</p>
-                  <p className="text-gray-600">Puri High Street, C-104, Sector 81, Faridabad, Haryana 121002</p>
+                  <p className="text-gray-600">Puri High Street, C-14, Sector 81, Faridabad, Haryana 121002</p>
                 </div>
               </div>
               
