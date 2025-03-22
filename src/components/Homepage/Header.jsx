@@ -10,21 +10,21 @@ import Navbar from "./Navbar";
 // Popup Modal Component
 const LeadCaptureModal = ({ isOpen, onClose }) => {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     
     try {
-      const response = await fetch("https://formspree.io/f/mzzdlovd", {
+      const response = await fetch("https://formspree.io/f/mjkygkng", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
           name,
-          email,
+          phone,
           _subject: "New Lead Capture From Homepage Popup",
         }),
       });
@@ -101,8 +101,8 @@ const LeadCaptureModal = ({ isOpen, onClose }) => {
                       required
                       placeholder="Your Phone Number"
                       className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-custom focus:border-transparent"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                   <button
