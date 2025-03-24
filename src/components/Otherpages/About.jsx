@@ -28,10 +28,10 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-20">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <div className="text-4xl font-bold mb-2">10K+</div>
-              <div className="text-gray-600">Premium Properties Listed</div>
+              <div className="text-gray-600">Premium Properties</div>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <div className="text-4xl font-bold mb-2">₹15B+</div>
+              <div className="text-4xl font-bold mb-2">₹15Cr+</div>
               <div className="text-gray-600">In Property Transactions</div>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">

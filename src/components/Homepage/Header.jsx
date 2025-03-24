@@ -110,12 +110,12 @@ const LeadCaptureModal = ({ isOpen, onClose }) => {
                     className="w-full bg-custom text-white font-medium py-3 rounded-md hover:bg-opacity-90 transition-colors"
                     style={{ background: "rebeccapurple" }}
                   >
-                    Subscribe
+                    Submit
                   </button>
                 </form>
                 
                 <p className="text-xs text-gray-500 mt-4 text-center">
-                  By subscribing, you agree to our privacy policy and terms of service.
+                  By submitting, you agree to our privacy policy and terms of service.
                 </p>
               </>
             )}
