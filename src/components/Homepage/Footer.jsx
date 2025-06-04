@@ -185,7 +185,22 @@ const Footer = () => {
               className="text-gray-400 hover:text-custom transition"
               whileHover={{ scale: 1.02 }}
             >
-              © 2024 . All rights reserved.
+              © 2024 . All rights reserved JK Homes.
+            </motion.p>
+          </a>
+        </motion.div>
+        <motion.div 
+          className=""
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.6 }}
+        >
+          <a href="https://maydiv.com/" style={{textAlign: 'center'}}>
+            <motion.p 
+              className="text-gray-400 hover:text-custom transition"
+              whileHover={{ scale: 1.02 }}
+            >
+              Designed and Crafted By Maydiv Infotech
             </motion.p>
           </a>
         </motion.div>
